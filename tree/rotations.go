@@ -1,5 +1,7 @@
 package tree
 
+// Source https://www.scaler.com/topics/data-structures/avl-tree/
+
 // Heavy left sub-tree (BF > 1), clockwise.
 func (n *Node) RightRotation() *Node {
 	newParent := n.Left
